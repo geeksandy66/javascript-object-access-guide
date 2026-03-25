@@ -43,14 +43,17 @@ console.log(user["is student"]);  // true
 const key = "name";
 
 console.log(user.key);   // undefined ❌
+
 console.log(user[key]);  // Sandeep ✅
 
 ### 👉 Explanation:
 
 user.key → looks for "key"
+
 user[key] → uses variable value
 
 ## 🧩 Practice Questions
+
 ### 🔹 Question 1
 const student = {
   name: "Rahul",
@@ -99,13 +102,18 @@ const user = {
 ### ✅ Answers
 #### ✔️ Answer 1
 console.log(student.name);
+
 #### ✔️ Answer 2
 console.log(user["full name"]);
+
 #### ✔️ Answer 3
 console.log(obj[key]);
+
 #### ✔️ Answer 4
 product.price = 12000;
+
 console.log(product.price);
+
 #### ✔️ Answer 5
 console.log(user.address.city);
 
