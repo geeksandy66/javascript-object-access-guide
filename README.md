@@ -21,6 +21,7 @@ const user = {
 
 ### ✅ 1. Dot Notation (Easy & Common)
 console.log(user.name); // Sandeep
+
 console.log(user.age);  // 27
 
 ✔️ Simple to use
@@ -33,6 +34,7 @@ console.log(user.is student); // ERROR
 
 ### ✅ 2. Bracket Notation (Flexible)
 console.log(user["name"]);        // Sandeep
+
 console.log(user["is student"]);  // true
 
 #### ✔️ Works with spaces & special characters
