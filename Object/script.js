@@ -147,8 +147,8 @@ https://github.com/geeksandy66/javascript-object-access-guide/blob/main/README.m
 
 
 
-// let beforeMarriage = {
-//     name : "Rani",
+// let beforeShift = {
+//     name : "Rajan",
 //     age : 26,
 //     address:{
 //         city: "Salempur",
@@ -157,14 +157,14 @@ https://github.com/geeksandy66/javascript-object-access-guide/blob/main/README.m
 // }
 
 
-// console.log(beforeMarriage);
+// console.log(beforeShift);
 
-// let afterMarriage = JSON.parse(JSON.stringify(beforeMarriage));
+// let afterShift = JSON.parse(JSON.stringify(beforeShift));
 
-// afterMarriage.address.city = "Mairwa";
-// afterMarriage.address.dist = "Siwan"
+// afterShift.address.city = "Mairwa";
+// afterShift.address.dist = "Siwan"
 
-// console.log(afterMarriage);
+// console.log(afterShift);
 
 
 
